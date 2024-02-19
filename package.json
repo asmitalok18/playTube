@@ -1,0 +1,11 @@
+{
+  "name": "playtube",
+  "version": "1.0.0",
+  "description": "\"A youTube clone app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "JavaScript, Backend"
+  },
+  "author": "",
+  "license": "ISC"
+}
