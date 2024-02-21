@@ -278,7 +278,7 @@ const updateUserAvatar = async (req, res) =>{
     )
 }
 
-const updateCoverImage = async (req, res) =>{
+const updateUserCoverImage = async (req, res) =>{
     const coverImageLocalPath = req.file?.path
     if(!coverImageLocalPath) {
      throw new ApiError(400, "Cover Image file is missing")
@@ -436,7 +436,7 @@ export {
     getCurrentUser,
     updateAccountDetails,
     updateUserAvatar,
-    updateCoverImage,
+    updateUserCoverImage,
     getUserChannelProfile,
     getWatchHistory
 }
